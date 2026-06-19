@@ -1,0 +1,12 @@
+anilist:
+  ANILIST_USERNAME: "your_anilist_username"               # remove it for anonymous session
+  DATA_FILE: "manga_list.json"
+
+llm_model:
+    ollama:
+      OLLAMA_MODEL: "llama3.1:8b"                         # any model you have pulled in Ollama
+      OLLAMA_URL: "http://localhost:11434/api/chat"
+      PORT: 8001
+    mistral:
+      MISTRAL_MODEL: 'mistral-large-2512'
+      API_KEY: 'YOUR_KEY'
